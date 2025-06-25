@@ -5,7 +5,7 @@ import io
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
 import logging
-from tf_keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 import os
 import tempfile
 
