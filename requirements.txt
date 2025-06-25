@@ -1,41 +1,41 @@
 # Core Web Framework
-fastapi==0.115.9
-uvicorn==0.34.2
-Flask==3.1.0
-flask-cors==5.0.1
-Flask-Login==0.6.3
-Flask-RESTful==0.3.10
-Flask-SQLAlchemy==3.1.1
+fastapi
+uvicorn
+Flask
+flask-cors
+Flask-Login
+Flask-RESTful
+Flask-SQLAlchemy
 
 # Database & ORM
-SQLAlchemy==2.0.38
+SQLAlchemy
 
 # Utils & Data
-numpy==1.26.4
-pandas==2.2.3
-scikit-learn==1.6.1
-joblib==1.4.2
+numpy
+pandas
+scikit-learn
+joblib
 
 # Model serving & preprocessing
-opencv-python-headless==4.11.0.86
-pillow==11.1.0
-matplotlib==3.10.1
+opencv-python-headless
+pillow
+matplotlib
 
 # XAI
-lime==0.2.0.1
-shap==0.47.0
+lime
+shap
 
 # Language model tools (if needed)
-langchain==0.3.25
-sentence-transformers==4.1.0
-transformers==4.49.0
+langchain
+sentence-transformers
+transformers
 
 # Machine learning / DL frameworks
 tensorflow
-tf-keras-vis==0.8.7
+tf-keras-vis
 
 # Optional: Auth, Requests, Logging
-python-dotenv==1.1.0
-requests==2.32.3
-python-multipart==0.0.20
-gunicorn==23.0.0
+python-dotenv
+requests
+python-multipart
+gunicorn
