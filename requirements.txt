@@ -1,41 +1,6 @@
-# Core Web Framework
-fastapi
-uvicorn
 Flask
-flask-cors
-Flask-Login
-Flask-RESTful
-Flask-SQLAlchemy
-
-# Database & ORM
-SQLAlchemy
-
-# Utils & Data
-numpy
-pandas
-scikit-learn
-joblib
-
-# Model serving & preprocessing
-opencv-python-headless
-pillow
-matplotlib
-
-# XAI
-lime
-shap
-
-# Language model tools (if needed)
-langchain
-sentence-transformers
-transformers
-
-# Machine learning / DL frameworks
 tensorflow
-tf-keras-vis
-
-# Optional: Auth, Requests, Logging
-python-dotenv
-requests
-python-multipart
+numpy
 gunicorn
+werkzeug
+pillow
