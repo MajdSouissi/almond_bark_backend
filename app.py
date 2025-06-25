@@ -131,7 +131,7 @@ def predict():
             logger.debug(f"Temporary file saved at: {temp_file_path}")
 
         # Load and preprocess the image
-        img = image.load_img(temp_file_path, target_size=(224, 224))
+        img = image.load_img(temp_file_path, target_size=(224, 224), interpolation='lanczos')
         img_array = image.img_to_array(img)
         img_array = np.expand_dims(img_array, axis=0)
         img_array = img_array.astype('float32') / 255.0  # Normalize
