@@ -31,7 +31,7 @@ sentence-transformers==4.1.0
 transformers==4.49.0
 
 # Machine learning / DL frameworks
-tensorflow==2.18.0
+tensorflow
 tf-keras-vis==0.8.7
 
 # Optional: Auth, Requests, Logging
