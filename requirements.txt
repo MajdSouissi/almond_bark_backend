@@ -30,6 +30,10 @@ langchain==0.3.25
 sentence-transformers==4.1.0
 transformers==4.49.0
 
+# Machine learning / DL frameworks
+tensorflow==2.18.0
+tf-keras-vis==0.8.7
+
 # Optional: Auth, Requests, Logging
 python-dotenv==1.1.0
 requests==2.32.3
